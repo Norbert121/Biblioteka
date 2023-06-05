@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10% 0 2% 10%;
+    color: #333333;
+    padding-left: 5%;
+}
+
+form {
+    display: block;
+    margin: 30px auto;
+    width: 90%;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form input[type="submit"] {
+    padding: 12px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+th, td {
+    padding: 10px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e6e6e6;
+}
+
+.actions a {
+    margin-right: 10px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.actions a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+        padding-left: 0;
+    }
+
+    form {
+        width: 60%;
+    }
+
+    form label,
+    form input[type="text"],
+    form input[type="submit"] {
+        font-size: 1.2em;
+    }
+
+    table {
+        width: 80%;
+    }
+
+    th, td {
+        padding: 12px 20px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .container {
+        width: 60%;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
